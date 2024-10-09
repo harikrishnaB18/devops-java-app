@@ -1,4 +1,5 @@
 @Library('my-shared-library') _
+
 pipeline {
     agent any 
 
@@ -7,7 +8,7 @@ pipeline {
             steps {
               gitcheckout{
                 branch: "main",
-                url: https://github.com/harikrishnaB18/devops-java-app.git
+                url: "https://github.com/harikrishnaB18/devops-java-app.git"
               }
             
             }
